@@ -96,7 +96,7 @@ a {
 /* 搜索开始 */
 .body-box{
 	width: 100%;
-	height: 6700px;
+	height: 9000px;
 	background: #f1f3ef;
 	overflow: hidden;
 }
@@ -135,9 +135,6 @@ a {
 	border: none;
 }
 
-.style{
-	
-}
 .submit-btn{
 	width: 50px;
 	height: 35px;
@@ -328,15 +325,6 @@ a {
 	cursor: pointer;
 	opacity: 0.8;
 }
-/* .mask{
-	width: 190px;
-	height: 100%;
-	background: rgba(255,255,255,1);
-	position: absolute;
-	left: 0;
-	top: 0;
-	opacity: 1;
-} */
 .grid-four{
 	width: 190px;
 	height: 480px;
@@ -735,7 +723,6 @@ p{
 }
 .left-title-box{
     position: relative;
-	width: 211px;
     height: 40px;
     margin: 8px 0 0 0;
 	/* background: blue; */
@@ -947,6 +934,9 @@ p{
 }
 .rr{
 	right: -20px;
+}
+.rrr{
+	right: 0;
 }
 .pai-body-imgs{
 	display: block;
@@ -1230,7 +1220,6 @@ p{
 .hui-body{
 	width: 390px;
 	height: 370px;
-
 }
 .hui-img{
 	width: 350px;
@@ -1381,6 +1370,12 @@ p{
     margin: 0 30px;
 	background: #FFFFFF;
 }
+.act-img-one{
+	width: 340px;
+    height: 200px;
+    margin-bottom: 20px;
+	background: #fff;
+}
 .act-inner .act-img{
 	float: right;
     margin-right: 30px;
@@ -1397,11 +1392,13 @@ p{
 }
 /* 运动户外结束 */
 /* 轻奢皮具开始 */
+*{
+	margin: 0;
+}
 .light{
 	width: 1190px;
 	height: 480px;
 	margin: 0 auto;
-	background: greenyellow;
 }
 .light-one{
 	float: left;
@@ -1413,7 +1410,6 @@ p{
 .light-one-inner{
 	width: 390px;
 	height: 450px;
-	background: #008000;
 	position: relative;
 }
 .light-one-inner::before{
@@ -1424,4 +1420,737 @@ p{
     height: 420px;
     border: solid 5px #333;
     top: 20px;
+}
+.lk{
+	position: relative;
+    z-index: 1;
+    float: left;
+    width: 340px;
+    height: 420px;
+    margin: 0 30px;
+	background: #FFFFFF;
+}
+img{
+	transition: all .2s linear;
+}
+.lk img:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.light-two{
+	float: left;
+    width: 390px;
+    height: 450px;
+    margin: 0 10px 30px 0;
+	background-color: #fff
+}
+.light-two-top{
+	display: block;
+    height: 225px;
+    background: #fff;
+    position: relative;
+}
+.two-top-hd{
+	padding-top: 20px;
+    height: 18px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.two-top-tit{
+	width: 350px;
+    color: #222;
+    font-weight: normal;
+    margin: auto;
+}
+.two-top-tit:hover{
+	cursor: pointer;
+}
+.two-top-tit span{
+	color: #999;
+    font-size: 14px;
+    vertical-align: 1px;
+}
+.two-top-tit span:hover{
+	cursor: pointer;
+}
+.two-top-h{
+	padding-top: 30px;
+}
+.two-top-list{
+	overflow: hidden;
+    text-align: center;
+}
+.two-top-item{
+	display: inline-block;
+    margin: 0 25px;
+}
+.items{
+	width: 130px;
+    height: 130px;
+	transition: all .2s linear;
+}
+.items:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.top-gap{
+    height: 1px;
+    width: 100%;
+    background-color: #f3f2f1;
+    box-sizing: border-box;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;	
+}
+.light-three{
+	float: left;
+    width: 390px;
+    height: 450px;
+    margin: 0 10px 30px 0;
+	margin-right: 0;
+    background-color: #fff;
+}
+.three-hd{
+    height: 60px;
+    padding: 0 20px;
+    font-size: 0;
+    line-height: 0;	
+}
+.three-hd-k{
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    margin: 8px 0 0 0;
+}
+.three-hd-tit{
+    float: left;
+    font-weight: normal;
+    font-size: 22px;
+    color: #222;
+    line-height: 44px;
+}
+.three-hd-tit:hover{
+	cursor: pointer;
+}
+.three-hd-tit span{
+	float: right;
+    font-size: 14px;
+    color: #999;
+    height: 20px;
+    line-height: 20px;
+    margin: 12px 0 0 10px;	
+}
+.three-hd-tit span:hover{
+	cursor: pointer;
+}
+.three-wrapper{
+	padding: 0 20px 20px 20px;
+}
+.three-itme{
+	height: 180px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background: #e3e6ec;
+}
+.its{
+	background: #ede8f1;
+}
+.good{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.good-item{
+	height: 100%;
+    width: 116px;
+    float: left;
+    padding: 31px 14px 0 14px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+	background-color: rgba(121, 135, 164, 0.5);
+}
+.ggg{
+	background-color:rgba(145, 128, 155, 0.5);
+}
+.good-item p{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+}
+.good-item-s{
+    width: auto;
+    background-color: #e4393c;
+    border: 1px solid #e4393c;
+    overflow: hidden;
+    color: #fff;
+    box-sizing: border-box;
+    line-height: 15px;
+    font-size: 12px;
+    vertical-align: middle;
+    padding-right: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.good-item-s b{
+	background-color: #fff;
+    color: #e4393c;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 2px;
+    font-weight: bold;
+}
+.good-f{
+	font-size: 12px;
+    color: #fff;
+    position: absolute;
+    left: 14px;
+    top: 136px;
+}
+.good-right-list{
+	float: left;
+    margin-top: 34px;
+    margin-left: 14px;
+}
+.good-right-lis .list-one{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+}
+.list-one img{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 7px;
+    margin: 3px 0 0 3px;
+    transition: opacity ease 0.2s;
+}
+.list-one img:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.list-price{
+	color: #e43235;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 12px;
+}
+.list-price b{
+	margin-right: 3px;
+}
+
 /* 轻奢皮具结束 */
+/* 京东时尚开始 */
+.fashi{
+	margin: 0 auto;
+    width: 1190px;
+	height: 480px;
+}
+/* 京东时尚结束 */
+/* 智能先锋栏开始 */
+/* 智能先锋栏结束 */
+/* 手机频道开始 */
+.clear{
+	margin: 0 0 0 20px;
+}
+.clear-mid{
+    float: left;
+    display: block;
+    width: 170px;
+    height: 180px;
+    margin: 0 10px 10px 0;
+	transition: all .2s linear;
+}
+.clear-mid:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.clear-big{
+    float: left;
+    width: 348px;
+    border: solid #ebeaea;
+    border-width: 0 1px 1px 0;
+    overflow: hidden;
+}
+.clear-small{
+    float: left;
+    width: 86px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 0;
+    overflow: hidden;
+    border: solid #ebeaea;
+    border-width: 1px 0 0 1px;
+}
+.clear-small-img{
+    background: #fff;
+    width: 80px;
+	height: 58px;
+    margin: auto;
+    transition: opacity ease 0.2s;
+}
+.clear-small-img:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.covers{
+    width: 350px;
+	height: 370px;
+    margin: 0 auto;
+}
+.covers-img{
+	width: 100%;
+	height: 100%;
+	transition: opacity ease 0.2s;
+}
+.covers-img:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+/* 手机频道结束 */
+/* 智能数码开始 */
+.fff{
+	margin-right: 0;
+}
+/* 智能数码结束 */
+/* 生活百货栏开始 */
+/* 生活百货栏结束 */
+/* 京东超市开始 */
+/* 京东超市结束 */
+/* 图书市集开始 */
+/* 图书市集结束 */
+/* 居家优品栏开始 */
+/* 居家优品栏结束 */
+/* 家电馆开始 */
+/* 家电馆结束 */
+/* 京东京造开始 */
+.jingzao{
+    position: relative;
+    width: 350px;
+    height: 165px;
+    margin: 0 auto;
+	transition: all .2s linear;
+}
+.jingzao:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.jingzao-list{
+    width: 350px;
+    overflow: hidden;
+    margin: 12px auto 0;
+}
+.jingzao-item{
+    float: left;
+    width: 150px;
+	transition: all .2s linear;
+}
+.jingzao-item:hover{
+	cursor: pointer;
+	opacity: 0.8;	
+}
+.jingzao-img{
+	height: 150px;
+}
+.jingzao-price{
+    color: #f62424;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.jingzao-tip{
+	font-size: 14px;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.st{
+    position: relative;
+    margin-left: 50px;
+	width: 150px;
+}
+.st::after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 150px;
+    background-color: #efefef;
+    position: absolute;
+    left: -25px;
+    top: 0;
+}
+/* 京东京造结束 */
+/* 寻宝栏开始 */
+/* 寻宝栏结束 */
+/* 寻宝内容开始 */
+.find{
+	width: 1190px;
+	height: 500px;
+	margin: 0 auto;
+}
+.scene{
+    float: left;
+    width: 390px;
+    margin: 0 10px 30px 0;
+	height: 240px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.scene-cover{
+    position: relative;
+    width: 390px;
+    height: 100px;
+    overflow: hidden;
+	transition: all .2s linear;
+}
+.scene-cover:hover{
+	cursor: pointer;
+}
+.mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+}
+.scene-tit{
+    position: absolute;
+    top: 39px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    z-index: 1;
+    vertical-align: middle;
+	color: #FFFFFF;
+}
+.scene-subtit{
+	font-weight: normal;
+}
+.scene-list{
+    width: 360px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.scene-ltem{
+	float: left;
+    margin: 0 5px;
+	transition: all .2s linear;
+}
+.scene-ltem:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.slast{
+	margin-right: 0;
+}
+/* 寻宝内容结束 */
+/* 特色推荐栏开始 */
+/* 特色推荐栏结束 */
+/* 特色推荐内容开始 */
+.speci{
+	margin: 0 auto;
+    width: 1190px;
+	position: relative;
+    height: 385px;
+}
+.speci-box{
+    height: 330px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.box-one{
+	width: 390px;
+	height: 330px;
+	background: #FFFFFF;
+	margin: 0 10px 10px 0;
+	float: left;
+}
+.speci-box .fff{
+	margin-right: 0;
+}
+.sdots{
+	width: 84px;
+	margin: 0 auto;
+}
+/* 特色推荐内容结束 */
+/* 京东直播栏开始 */
+/* 京东直播栏结束 */
+/* 京东直播内容开始 */
+.tv-box{
+	margin: 0 auto;
+    width: 1190px;
+	height: 455px;
+}
+
+.tv-boxone{
+	float: left;
+    width: 390px;
+    height: 425px;
+    margin: 0 6px 30px 0;
+	background: #fff;
+	overflow: hidden;
+}
+.tv-boxs{
+	width: 360px;
+	height: 400px;
+    margin: 15px;
+	
+}
+.tv-boxone-l{
+	float: left;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+	position: relative;
+	cursor: pointer;
+	
+}
+.tv-boxone-l img{
+	width: 100%;
+	height: 100%;
+}
+
+.tv-btn{
+	width: 44px;
+    height: 44px;
+    margin: -22px 0 0 -22px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    background-size: 100% 100%;
+    z-index: 1;
+    opacity: 0.8;
+	transition: opacity ease 0.2s;
+}
+.tv-btn i{
+	font-size: 42px;
+	color: #FFFFFF;
+}
+.tv-info{
+	bottom: 20px;
+	position: absolute;
+    width: 100%;
+	height: 24px;
+    /* bottom: 38px; */
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+.tv-desc{
+	font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tv-twoimg{
+	width: 100%;
+    height: 390px;
+    margin-bottom: 10px;
+	position: relative;
+	transition: all .2s linear;
+}
+.tv-twoimg img{
+	width: 100%;
+	height: 100%;
+}
+.tv-twoimg:hover{
+	cursor: pointer;
+}
+.tv-Btn{
+	position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -30px;
+	background-size: 100% 100%;
+    z-index: 1;
+    opacity: 0.8;
+	transition: opacity ease 0.2s;
+}
+.tv-Btn i{
+	font-size: 64px;
+	color: #FFFFFF;
+}
+.tv-Info{
+	position: absolute;
+    width: 100%;
+    bottom: 38px;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+.tv-title{
+	font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tv-titles{
+	font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 京东直播内容结束 */
+/* 还没逛够栏开始 */
+/* 还没逛够栏结束 */
+/* 还没逛够内容开始 */
+.note{
+	margin: 0 auto;
+    width: 1190px;
+	height: 630px;
+}
+.note-list{
+	width: 1200px;
+	height: 630px;
+}
+.note-item{
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 305px;
+    background: #fff;
+    margin: 0 5px 10px;
+}
+.note-item img:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.note-img{
+	width: 150px;
+    height: 150px;
+    margin: 40px auto 18px;
+    display: block;
+	transition: all .2s linear;
+}
+.note-img:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.note-info{
+	clear: both;
+    padding: 0 16px 0;
+    height: 65px;
+    line-height: 24px;
+}
+.note-info-name{
+	height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    color: #7d7d7d;
+    transition: color ease 0.2s;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.note-info-price{
+	margin-top: 5px;
+}
+.mod-price{
+	display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    height: 18px;
+	color: #e33333;
+}
+.dis{
+	font-size: 12px;
+    color: #e33333;
+    height: 16px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid #e33333;
+    line-height: 14px;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: 1px;
+}
+/* 还没逛够内容结束 */
+/* 结尾开始 */
+.footer{
+	/* width: 1190px; */
+	height: 568px;
+	background: #008000;
+	margin: 0 auto;
+}
+.footer-top{
+	height: 42px;
+	padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+.top-inner{
+	margin: 0 auto;
+    width: 1190px;
+}
+.top-list{
+	overflow: hidden;
+    height: 42px;
+	display: block;
+    list-style-type: disc;
+}
+.top-item{
+	float: left;
+    width: 297px;
+	height: 42px;
+	overflow: hidden;
+}
+.top-items{
+	position: relative;
+    margin: 0 auto;
+    padding-left: 45px;
+    width: 180px;
+}
+.top-duo{
+	overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 36px;
+    height: 42px;
+    text-indent: -999px;
+    background-position: 0 -192px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png);
+}
+.top-txt{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444;
+}
+/* 结尾结束 */
