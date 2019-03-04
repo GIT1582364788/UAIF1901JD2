@@ -96,7 +96,7 @@ a {
 /* 搜索开始 */
 .body-box{
 	width: 100%;
-	height: 9000px;
+	height: 9300px;
 	background: #f1f3ef;
 	overflow: hidden;
 }
@@ -293,9 +293,14 @@ a {
 	margin-left: 10px;
 	overflow: hidden;
 }
-.grid-two img{
+.gird-two-img{
 	width: 590px;
 	height: 470px;
+	position: relative;
+}
+.grid-two img{
+	width: 100%;
+	height: 100%;
 	margin-top: 10px;
 }
 .grid-two img:hover{
@@ -587,7 +592,10 @@ p{
 	margin-right: 5px;
 }
 
-
+.spike-m{
+	position: relative;
+	float: left;
+}
 .spike-mid{
 	width: 200px;
 	height: 275px;
@@ -907,7 +915,6 @@ p{
 .slider-left{
 	position: absolute;
     top: 50%;
-	
     border-radius: 0;
     width: 20px;
     height: 40px;
@@ -938,6 +945,7 @@ p{
 .rrr{
 	right: 0;
 }
+
 .pai-body-imgs{
 	display: block;
     width: 350px;
@@ -2102,7 +2110,6 @@ img{
 .footer{
 	/* width: 1190px; */
 	height: 568px;
-	background: #008000;
 	margin: 0 auto;
 }
 .footer-top{
@@ -2124,7 +2131,6 @@ img{
 	float: left;
     width: 297px;
 	height: 42px;
-	overflow: hidden;
 }
 .top-items{
 	position: relative;
@@ -2139,7 +2145,7 @@ img{
     top: 0;
     width: 36px;
     height: 42px;
-    text-indent: -999px;
+	margin-left: 0;
     background-position: 0 -192px;
     background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png);
 }
@@ -2152,5 +2158,191 @@ img{
     text-overflow: ellipsis;
     white-space: nowrap;
     color: #444;
+	margin-top: 0;
+}
+.kuai{
+	background-position: -41px -192px;
+}
+.hao{
+	background-position: -82px -192px;
+}
+.sheng{
+    background-position: -123px -192px;
+}
+.footer-mid{
+	margin: 0 auto;
+	width: 1190px;
+	padding: 20px 0;
+	border-bottom: 1px solid #dedede;
+}
+.mid-inner{
+	margin: 0 auto;
+    width: 1190px;
+}
+.mid-help{
+	overflow: hidden;
+    height: 160px;
+}
+.mid-nav{
+	float: left;
+    width: 198px;
+    line-height: 22px;
+}
+.nav-tit{
+	margin-bottom: 5px;
+    font-size: 14px;
+	margin-left: 0;
+	color: #666;
+}
+.navs-i{
+	color: #666;
+	font-size: 12px;
+}
+.navs-i:hover{
+	cursor: pointer;
+	color: #c81623;
+}
+.mid-cover{
+    background-position: 0 0;
+    float: right;
+    width: 200px;
+    height: 150px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png);
+}
+.cover-tit{
+	margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+	margin-left: 0;
+	color: #666;
+	width: 200px;
+}
+.cover-con{
+	padding: 0 10px;
+	color: #666;
+	font-size: 12px;
+	padding: 0 10px;
+}
+.cover-more{
+	text-align: right;
+}
+.cover-more-tit:hover{
+	color: #c81623;
+	cursor: pointer;
+}
+.footer-bottom{
+	padding: 15px 0;
+    text-align: center;
+	margin: 0 auto;
+    width: 1190px;
+}
+.bottom-links{
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+
+.bottom-links a{
+	color: #666;
+}
+.bottom-links a:hover{
+	cursor: pointer;
+	color: #c81623;
+}
+.bottom-links span{
+	margin: 0 10px;
+	color: #ccc;
+}
+.bottom-info{
+	padding: 10px 0;
+    line-height: 22px;
+    color: #999;  
+	text-align: center;
+} 
+.ks a{
+	color: #999;
+}
+.info-two{
+	text-align: center;
+	line-height: 22px;
+    color: #999;
+}
+.info-two a{
+	font-size: 12px;
+	color: #999;
+}
+.info-two a:hover{
+	color: #c81623;
+}
+.info-item{
+	display: inline-block;
+    background-repeat: no-repeat;
+    background-position: -108px -155px;
+    width: 15px;
+    height: 12px;
+    margin-top: -1px;
+	margin-right: 4px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png);
+}
+.e{
+	background-position: -168px -155px;
+}
+.si{
+	background-position: -148px -155px;
+}
+.de{
+	background-position: -128px -155px;
+}
+.a{
+	background-position: -108px -172px;
+}
+.info-two span{
+	margin: 0 10px;
+	color: #ccc;
+	font-size: 12px;
+}
+.info-three{
+	text-align: center;
+	line-height: 22px;
+	font-size: 12px;
+}
+.info-three a{
+	color: #999;
+}
+.info-three a:hover{
+	color: #c81623;
+}
+
+.info-three span{
+	margin: 0 10px;
+	color: #ccc;
+	font-size: 12px;
+}
+.bottom-auth{
+	margin: 25px 0;
+	text-align: center;
+}
+.auth-one{
+	overflow: hidden;
+    display: inline-block;
+    margin: 0 3px;
+    width: 103px;
+    height: 32px;
+    line-height: 1000px;
+	background-repeat: no-repeat;
+    background-position: -205px -111px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png);
+}
+.wang{
+	background-position: -205px -74px;
+}
+.xin{
+	background-position: -205px -37px;
+}
+.zhong{
+	background-position: -205px 0;
+}
+.luo{
+    background-position: 0 -155px;
 }
 /* 结尾结束 */
