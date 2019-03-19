@@ -956,7 +956,48 @@ p{
 	float: right;
 	padding: 8px 10px 7px;
 	box-sizing: border-box;
+	position: relative;
 }
+.spike-right-box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.spike-right .spike-right-box a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	transition: all .4s linear;
+	cursor: pointer;
+}
+.spike-right .points{
+	position: absolute;
+    left: 50%;
+    font-size: 0;
+	text-align: center;
+	bottom: 16px;
+	margin-left: -14px;
+}
+.points .point{
+	background: #c0c0c0;
+    width: 6px;
+    height: 6px;
+	margin: 4px;
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+}
+.points .point:hover{
+	background: #e33333;
+}
+.points .active{
+	background: #e33333;
+}
+
 /* 秒杀结束 */
 /* 排行榜开始 */
 .pai{
@@ -1116,7 +1157,6 @@ p{
     left: 50%;
     font-size: 0;
     text-align: center;
-	
 }
 .two-dots-left{
 	position: relative;
@@ -1129,6 +1169,13 @@ p{
 }
 .two-dots-left:hover {
 	background: #fdd9dd;
+}
+.t1 .active{
+	background: #fdd9dd;
+}
+.two-dots-left .active{
+	border: 2px solid transparent;
+	background-color: #eb3436;
 }
 .two-dots-left:hover .inn{
 	border: 2px solid transparent;
@@ -1161,18 +1208,24 @@ p{
 	border: 2px solid #b9beba;
 	background: #FFFFFF;
 }
-
 .pai-body{
-	width: 390px;
+	width: 350px;
 	height: 355px;
-	/* background: #008000; */
+	text-align: center;
+	padding: 0 20px;
+}
+.li-box{
+	width: 350px;
+	height: 355px;
+	position: relative;
+	overflow: hidden;
 }
 .pai-body-li{
-	position: relative;
     width: 350px;
     height: 355px;
-	/* background: grey; */
-    margin: 0 auto;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
 }
 .slider-left{
 	position: absolute;
@@ -1200,10 +1253,10 @@ p{
 	color: hsla(0,0%,100%,.4);
 }
 .ll{
-	left: -20px;
+	left: 0px;
 }
 .rr{
-	right: -20px;
+	right: 0px;
 }
 .rrr{
 	right: 0;
@@ -1582,14 +1635,9 @@ p{
 }
 /* 时尚达人栏结束 */
 /* 运动户外开始 */
-.pai-body{
-	width: 390px;
-	height: 380px;
-}
 .pai-body-in{
 	width: 370px;
 	height: 380px;
-	margin: 0 0 0 20px;
 }
 .body-in-top{
 	display: block;
@@ -1938,9 +1986,6 @@ img{
 /* 智能先锋栏开始 */
 /* 智能先锋栏结束 */
 /* 手机频道开始 */
-.clear{
-	margin: 0 0 0 20px;
-}
 .clear-mid{
     float: left;
     display: block;
@@ -1952,6 +1997,9 @@ img{
 .clear-mid:hover{
 	cursor: pointer;
 	opacity: 0.8;
+}
+.mmid{
+	margin-right: 0;
 }
 .clear-big{
     float: left;
@@ -2147,10 +2195,17 @@ img{
 	position: relative;
     height: 385px;
 }
+.speci-list{
+	position: relative;
+}
 .speci-box{
+	width: 1190px;
     height: 330px;
     margin-bottom: 10px;
-    overflow: hidden;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 .box-one{
 	width: 390px;
